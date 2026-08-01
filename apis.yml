@@ -1,4 +1,16 @@
 aid: shieldx-fortinet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shieldx-fortinet.png
 name: ShieldX (Fortinet)
 description: 'ShieldX (Fortinet) is a company surfaced as a portfolio company of bain-capital-ventures
   and added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is
@@ -12,7 +24,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    ShieldX Networks was acquired by Fortinet (April 2020) and its cloud
+    microsegmentation product was absorbed; the standalone brand is defunct.
+    shieldx.com resolves to a Fortinet-owned IP (nameservers ns3/ns4.fortinet.com)
+    but the host does not respond (connection timeout) — no live developer portal,
+    docs, or API surface. No artifacts derivable without misattributing Fortinet's
+    own APIs to this stub.
 tags:
 - Company
 - Security
